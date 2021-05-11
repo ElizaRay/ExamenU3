@@ -1,0 +1,23 @@
+body{
+
+    background-color: black;
+    text-align: center;
+
+}
+
+h1{
+    color:blue;
+}
+label{
+    color:coral;
+}
+
+div{
+
+    color: cyan;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+pre{
+    background:lime;
+}

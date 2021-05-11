@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://www.gstatic.com/firebasejs/8.4.1/firebase-app.js"></script>
+    <!--Libreria adicional-->
+    <script src="https://www.gstatic.com/firebasejs/8.4.1/firebase-database.js"></script>
+    <!--Bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <!--CSS-->
+    <style>@import 'index.css';</style>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+
+    <title>Proyecto con Base de datos de Realtime</title>
+</head>
+<body>
+    <h1>Examen Unidad 3 - Conexion a Realtime</h1>
+   <!-- <div id="app">-->
+
+    <br/>
+    <button class="btn btn-success btn-lg" onclick="writecollection()">Agregar colección</button>
+    
+    <button class="btn btn-primary btn-lg" onclick="readval()">Mostrar con val colección</button>
+    
+    <button class="btn btn-warning btn-lg" onclick="readget()">Mostrar con get colección</button>
+    <br/>
+    <br/>
+  <label>Resultado:</label>  
+     <br>
+        <!--<textarea name="Resultado:"  rows="8" cols="30">  </textarea>-->
+    <div id="app"></div>
+  </br></br></br>
+  
+
+
+    <script src="app.js"></script>
+</body>
+</html>
